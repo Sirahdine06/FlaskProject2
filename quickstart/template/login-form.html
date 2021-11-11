@@ -1,0 +1,15 @@
+<html>
+	<body>
+		 {% if error !=None: %}
+			<h2 style="color: red">{{ error }}</h2>
+		 {% endif %}
+		 
+		 <form action = "http://localhost:5000/login" method = "post">
+			<p>Username:</p>
+			<p><input type = "text" name = "username" /></p>
+			<p>Password:</p>
+			<p><input type = "password" name = "password" /></p>
+			<P><input type = "submit" value = "login" /></p>
+		</form>
+	</body>
+</html>

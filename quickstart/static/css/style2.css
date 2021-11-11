@@ -1,0 +1,11 @@
+th {
+	font-size: 24px;
+	background-color: yellow;
+	color: red;
+}
+
+td {
+	font-size: 18px;
+	background-color: green;
+	color: white;
+}
